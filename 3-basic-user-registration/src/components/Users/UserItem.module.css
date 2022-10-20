@@ -1,0 +1,11 @@
+.user-item {
+    margin: 0;
+    background: #741188;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    color: white;
+    padding: 5%;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+  }
+  

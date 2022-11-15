@@ -13,3 +13,5 @@ _To view any of these projects, please download the code source and run 'npm ins
 - **3-basic-user-registration**: Learning about lifting state to other components and using useState to validate form entry in a user registration form.
 - **4-react-side-effects**: Learning about new React hooks, useRef and useEffect. Also learned about React context in a blank webapp with user login and persistent sessions.
 - **5-food-order-webapp**: Using everything I've learned, a variety of custom components and multiple applications of React Hooks (useState, useEffect, useRef, useReducer) to create an interactive food order site similar to *JustEat* or *Deliveroo*
+- **6-react-optimisation-techniques**: Overview of how React interacts with DOM and introduces useCallback and React.Memo for optimal rendering in React.
+- **7-class-based-components**: Class based components application with intro to Error boundaries

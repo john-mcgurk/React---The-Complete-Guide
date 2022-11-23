@@ -5,6 +5,7 @@ import DemoOutput from './components/Demo/DemoOutput';
 import './App.css';
 
 function App() {
+
   const [showParagraph, setShowParagraph] = useState(false);
   const [allowToggle, setAllowToggle] = useState(false);
 

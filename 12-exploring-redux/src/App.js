@@ -15,7 +15,7 @@ function App() {
       <Header />
       {!isAuth && <Auth />}
       {isAuth && <UserProfile />}
-      {false && <Counter></Counter>}
+      <Counter></Counter>
     </Fragment>
   );
 }

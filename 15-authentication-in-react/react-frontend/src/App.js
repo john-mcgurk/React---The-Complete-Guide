@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import EditEventPage from './pages/EditEvent';
 import ErrorPage from './pages/Error';
-import AuthenticationPage from './pages/Authentication'
+import AuthenticationPage, {action as authAction } from './pages/Authentication'
 import EventDetailPage, {
   loader as eventDetailLoader,
   action as deleteEventAction,
@@ -57,7 +57,8 @@ const router = createBrowserRouter([
       },
       {
         path: 'auth',
-        element: <AuthenticationPage />
+        element: <AuthenticationPage />,
+        action: authAction,
       },
       {
         path: 'newsletter',
